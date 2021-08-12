@@ -7,3 +7,7 @@ Tgl 22 Juli 2021 - 15 Oktober 2021
 Kolaborasi Instruktur Filkom x Mipa UB 2021
 Di Bawah Naungan Kominfo Pusat x Cisco x AWS x lainnya dlm FGA
 Asisten Kelas B: Yonas Asmara
+
+Best Final Project ke-1:
+a.n. Eunice Cristine
+https://www.youtube.com/watch?v=17pmIT1jHkk
