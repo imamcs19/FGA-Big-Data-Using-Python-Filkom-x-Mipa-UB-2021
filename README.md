@@ -10,4 +10,8 @@ Asisten Kelas B: Yonas Asmara
 
 Best Final Project ke-1:
 a.n. Eunice Cristine
-https://www.youtube.com/watch?v=17pmIT1jHkk
+<iframe width="560" height="315"
+src="https://www.youtube.com/watch?v=17pmIT1jHkk" 
+frameborder="0" 
+allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+allowfullscreen></iframe>
