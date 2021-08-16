@@ -1,0 +1,147 @@
+    1  tar -xf *.tar -C ./
+    2  cd jars/
+    3  tar -xf *.tar -C ./
+    4  cd
+    5  cd mysite/
+    6  tar -cf mysite.tar /home/imamcs/spark-3.1.2-bin-hadoop3.2/
+    7  tar -cf mysite.tar ./* /home/imamcs/spark-3.1.2-bin-hadoop3.2/
+    8  tar -C ./* -cvf mysite.tar /home/imamcs/spark-3.1.2-bin-hadoop3.2/
+    9  tar -cvf mysite.tar /home/imamcs/spark-3.1.2-bin-hadoop3.2/
+   10  clear
+   11  cd
+   12  cd spark-3.1.2-bin-hadoop3.2/
+   13  tar -cvf mysite.tar /home/imamcs/mysite/
+   14  ls
+   15  cd
+   16  pysaprk
+   17  pyspark
+   18  clear
+   19  echo $JAVA_HOME
+   20  ls
+   21  export SPARK_HOME="/home/imamcs/mysite/spark-3.1.2-bin-hadoop3.2"
+   22  echo $SPARK_HOME
+   23  export PATH=$PATH:$SPARK_HOME/bin:$SPARK_HOME/sbin
+   24  export PYTHONPATH=$SPARK_HOME/python/lib/py4j-0.10.9-src.zip:$PYTHONPATH
+   25  echo $PYSPARK_PYTHON
+   26  export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64
+   27  export PATH=$PATH:$JAVA_HOME:$JAVA_HOME/jre/bin
+   28  chmod -R 777 /home/imamcs/mysite/*
+   29  pyspark
+   30  echo $SPARK_HOME
+   31  python -V
+   32  python3 -V
+   33  pip3.7 install findspark
+   34  source ~/.bashrc
+   35  python
+   36  python3.7
+   37  pip3.7 install --user findspark
+   38  echo $SPARK_HOME
+   39  export SPARK_HOME="/home/imamcs/mysite/spark-3.1.2-bin-hadoop3.2"
+   40  echo $SPARK_HOME
+   41  pyspark
+   42  echo $PATH
+   43  export PATH=$PATH:$SPARK_HOME/bin:$SPARK_HOME/sbin
+   44  echo $PATH
+   45  echo $PYTHONPATH
+   46  pyspark
+   47  source ~/.bashrc
+   48  cd /home/imamcs/.local/lib/python3.7/site-packages/
+   49  ls
+   50  nano findspark.py 
+   51  cp findspark.py /home/imamcs/mysite/
+   52  cp /home/imamcs/mysite/findspark.py ./
+   53  python3.7 findspark.py
+   54  cp /home/imamcs/mysite/findspark.py ./
+   55  nano findspark.py 
+   56  pyspark
+   57  spark-shell
+   58  nano ~/.bashrc
+   59  cp ~/.bashrc /home/imamcs/mysite/
+   60  cp /home/imamcs/mysite/.bashrc ~/
+   61  nano ~/.bashrc
+   62  source ~/.bashrc
+   63  java --versio
+   64  java --version
+   65  pyspark
+   66  cd
+   67  cd spark-3.1.2-bin-hadoop3.2/
+   68  cd bin
+   69  ls
+   70  pyspark
+   71  ./pyspark
+   72  echo $SPARK_HOME
+   73  cd
+   74  nano .profile
+   75  source .profile
+   76  echo $JAVA_HOME
+   77  chmod -R 7777 /home/imamcs/
+   78  pyspark
+   79  pyspark3
+   80  echo $JAVA_HOME
+   81  echo $SPARK_HOME
+   82  cd ~/.local/lib/python3.7/site-packages
+   83  cp /home/imamcs/mysite/findspark.py ./  
+   84  echo $PYTHONPATH
+   85  pyspark
+   86  cd /home/imamcs/mysite/spark-3.1.2-bin-hadoop3.2/python
+   87  cd /home/imamcs/spark-3.1.2-bin-hadoop3.2/python
+   88  cd /home/imamcs/spark-3.1.2-bin-hadoop3.2/python/
+   89  cd /home/imamcs/spark-3.1.2-bin-hadoop3.2/python/lib/
+   90  ls
+   91  cp /home/imamcs/mysite/.bashrc ~/
+   92  source ~/.bashrc 
+   93  nono ~/.profile 
+   94  nano ~/.profile 
+   95  chmod -R 777 /home/imamcs/*
+   96  cd ~/.local/lib/python3.7/site-packages/
+   97  cd ~/.local/lib/python3.7/
+   98  ls
+   99  cd ~/.local/lib/python3.7/site-packages/
+  100  ls
+  101  cd ~/.local/lib/python37
+  102  cd ~/.local/lib/python3.7
+  103  ls
+  104  export PYSPARK_PYTHON=python3.7
+  105  cp /home/imamcs/mysite/.bashrc ~/
+  106  source ~/.bashrc
+  107  clear
+  108  cd
+  109  ls
+  110  cd tar/
+  111  tar -cvf mysite.tar /home/imamcs/mysite/
+  112  ls
+  113  amcs/mysite/static/css/icons/simple-line-icons/fonts/Simple-Line-Icons.eot
+  114  /home/imamcs/mysite/static/css/icons/simple-line-icons/fonts/Simple-Line-Icons.svg
+  115  /home/imamcs/mysite/static/css/icons/simple-line-icons/fonts/.listing
+  116  /home/imamcs/mysite/static/css/icons/simple-line-icons/fonts/Simple-Line-Icons.woff2
+  117  /home/imamcs/mysite/static/css/icons/simple-line-icons/css/
+  118  /home/imamcs/mysite/static/css/icons/simple-line-icons/css/simple-line-icons.css
+  119  /home/imamcs/mysite/static/css/icons/themify-icons/
+  120  /home/imamcs/mysite/static/css/icons/themify-icons/themify-icons.css
+  121  /home/imamcs/mysite/static/css/icons/themify-icons/fonts/
+  122  /home/imamcs/mysite/static/css/icons/themify-icons/fonts/themify.eot
+  123  /home/imamcs/mysite/static/css/icons/themify-icons/fonts/themify.woff
+  124  /home/imamcs/mysite/static/css/icons/themify-icons/fonts/.listing
+  125  /home/imamcs/mysite/static/css/icons/themify-icons/fonts/themify.svg
+  126  /home/imamcs/mysite/static/css/icons/themify-icons/fonts/themify.ttf
+  127  /home/imamcs/mysite/static/css/sidebar-nav.min.css
+  128  /home/imamcs/mysite/static/css/fullcalendar.css
+  129  /home/imamcs/mysite/dataset_dump_tiny.csv
+  130  /home/imamcs/mysite/code.py
+  131  /home/imamcs/mysite/fga_big_data_rev2.db
+  132  /home/imamcs/mysite/readme.txt
+  133  /home/imamcs/mysite/findspark.txt
+  134  /home/imamcs/mysite/fga_big_data.db
+  135  /home/imamcs/mysite/__pycache__/
+  136  /home/imamcs/mysite/__pycache__/findspark.cpython-37.pyc
+  137  /home/imamcs/mysite/__pycache__/flask_app_fga_big_data.cpython-37.pyc
+  138  /home/imamcs/mysite/README.md
+  139  /home/imamcs/mysite/findspark.py
+  140  /home/imamcs/mysite/dataset_dump.csv
+  141  01:43 ~/tar $ ls
+  142  mysite.tar
+  143  cp ~/.profile /home/imamcs/mysite/
+  144  tar -cf mysite_fga_big_data_v1.02.tar /home/imamcs/mysite/
+  145  tar -cf mysite_fga_big_data_v1.02.tar /home/imamcs/mysite
+  146  script log_bash_imamcs_Fga_big_data_16_agt_2021.txt
+  147  history > history_bash_imamcs_fga_big_data_16_agt_2021.txt
