@@ -11,4 +11,11 @@ Asisten Kelas B: Yonas Asmara
 Screenshot Hasil Running Big Data App Using Python:
 ![Ngrok x Flask on Google Colab - Login & Register - BigDataApps Rev2.1](https://github.com/imamcs19/FGA-Big-Data-Using-Python-Filkom-x-Mipa-UB-2021/blob/main/Ngrok%20x%20Flask%20on%20Google%20Colab%20-%20Login%20%26%20Register%20-%20BigDataApps%20Rev2.1.png)
 
-![Data Science of “Ramadan”: Deep Mining of Lailatul Qadr v2](https://github.com/imamcs19/Data-Science-of-Ramadan---Deep-Mining-of-Lailatul-Qadr/blob/master/Data%20Science%20of%20Ramadan.png)
+![Halaman Upload dan List Files Upload - Flask x SQLite](https://github.com/imamcs19/FGA-Big-Data-Using-Python-Filkom-x-Mipa-UB-2021/blob/main/Halaman%20Upload%20dan%20List%20Files%20Upload%20-%20Flask%20x%20SQLite%20On%20PythonAnywhere.png)
+
+![Data Processing Using PySpark x Flask x SQLite - PythonAnywhere](https://github.com/imamcs19/FGA-Big-Data-Using-Python-Filkom-x-Mipa-UB-2021/blob/main/Data%20Processing%20Using%20PySpark%20On%20PythonAnywhere.png)
+
+![Data Processing Using Scikit-learn x Flask x SQLite - PythonAnywhere](https://github.com/imamcs19/FGA-Big-Data-Using-Python-Filkom-x-Mipa-UB-2021/blob/main/Data%20Processing%20Using%20Scikit-learn%20On%20PythonAnywhere.png)
+
+
+Semoga Bermanfaat. Aamiin. :D
