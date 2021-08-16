@@ -1,0 +1,180 @@
+# Intalasi Spark di PythonAnywhere atau lainnya
+# by: Imam Cholissodin
+# Dosen Fakultas Ilmu Komputer (Filkom), Universitas Brawijaya (UB)
+# Dibuat pada 16 Agustus 2021
+# Semoga bermanfaat. Aamiin. :D
+# -----------------------------------
+# download split file Master Spark spark-3.1.2-bin-hadoop3.2 dari https://bit.ly/2Um0VBd
+# download file Master Web App Big Data Using Python dari https://bit.ly/3CSNwC4
+# lalu upload dan ekstrak di Python Anywhere, misal dengan perintah berikut
+utk backup code Anda, misal
+buat folder tar
+$mkdir tar
+~/tar $ tar -cf mysite.tar /home/imamcs/mysite/
+
+lalu kosongkan dulu site utama Anda  ~/tar $ rm -R /home/imamcs/mysite/*
+
+utk ekstrak, hasil download file Master Web App Big Data Using Python dari https://bit.ly/3CSNwC4
+upload file "mysite_fga_big_data_v1.02.tar" ke folder tar
+cd /home/imamcs/mysite/
+~/tar $ tar -xf /home/imamcs/tar/mysite_fga_big_data_v1.02.tar -C ./
+
+utk move hasil ekstrak,
+~/tar $ mv /home/../home/imamcs/mysite/* /home/imamcs/mysite
+
+# hapus folder home dalam home
+
+# melalui bash, dimana 3.7 menyatakan sesuai versi python yg Anda pilih/ dikonfigurasi
+#agar dapat menjalankan pyspark
+# $ chmod -R 777 /home/imamcs/*
+# install flask_cors dengan "pip3.7 install --user flask_cors"
+# install findspark dengan "pip3.7 install --user findspark"
+#
+
+# copy file findspark.py ke mysite utama app
+$ cd /home/imamcs/.local/lib/python3.7/site-packages/
+$ ~/.local/lib/python3.7/site-packages $ cp findspark.py /home/imamcs/mysite/
+# lalu tambahkan dibawah, konfigurasi berikut
+from glob import glob
+import os
+import sys
+
+__version__ = "1.4.2"
+
+os.environ["JAVA_HOME"] ="/usr/lib/jvm/java-8-openjdk-amd64"
+os.environ["SPARK_HOME"] ="/home/imamcs/spark-3.1.2-bin-hadoop3.2"
+
+
+os.environ["PATH"] = os.environ.get("PATH") + ":" + os.environ.get("SPARK_HOME") + "/bin:" + os.environ.get("SPARK_HOME") + "/sbin"
+
+# export PATH=$PATH:$JAVA_HOME:$JAVA_HOME/jre/bin
+
+os.environ["PATH"] += ":" + os.environ.get("JAVA_HOME") + ":" + os.environ.get("JAVA_HOME") + "/jre/bin"
+
+# export PYTHONPATH="/home/imamcs/spark-3.1.2-bin-hadoop3.2/python/"
+
+# export PYTHONPATH=$SPARK_HOME/python/lib/py4j-0.10.9-src.zip:$PYTHONPATH
+
+os.environ["PYTHONPATH"] =  os.environ.get("SPARK_HOME") + "/python/"
+os.environ["PYTHONPATH"] =  os.environ.get("SPARK_HOME") + "/python/lib/py4j-0.10.9-src.zip:" + os.environ.get("PYTHONPATH")
+# os.environ["PYTHONPATH"] +=":/home/imamcs/spark-3.1.2-bin-hadoop3.2/python/lib/py4j-0.10.9-src.zip"
+
+# os.environ["PYTHONPATH"] = "/spark-2.4.1-bin-hadoop2.7/python/"
+# os.environ["PYTHONPATH"] += ":/spark-2.4.1-bin-hadoop2.7/python/lib/py4j-0.10.7-src.zip"
+
+# export PYSPARK_PYTHON=python3.7
+os.environ["PYSPARK_PYTHON"] = "python3.7"
+
+def find():
+    """Find a local spark installation.
+
+    Will first check the SPARK_HOME env variable, and otherwise
+    search common installation locations, e.g. from homebrew
+    """
+    spark_home = os.environ.get("SPARK_HOME", None)
+
+    if not spark_home:
+        for path in [
+            "/usr/local/opt/apache-spark/libexec",  # macOS Homebrew
+            "/usr/lib/spark/",  # AWS Amazon EMR
+            "/usr/local/spark/",  # common linux path for spark
+            "/opt/spark/",  # other common linux path for spark
+            "/home/imamcs/spark-3.1.2-bin-hadoop3.2/",
+            # Any other common places to look?
+        ]:
+            if os.path.exists(path):
+                spark_home = path
+                break
+
+    if not spark_home:
+        raise ValueError(
+            "Couldn't find Spark, make sure SPARK_HOME env is set"
+            " or Spark is in an expected location (e.g. from homebrew installation)."
+        )
+
+    return spark_home
+
+# copykan kembali (bisa diskip)
+~/.local/lib/python3.7/site-packages $ cp /home/imamcs/mysite/findspark.py ./
+
+# copykan file .bashr
+~/.local/lib/python3.7/site-packages $ cp ~/.bashrc /home/imamcs/mysite/
+# isikan di bagian bawahnya dengan
+export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64
+
+
+export SPARK_HOME=/home/imamcs/spark-3.1.2-bin-hadoop3.2
+export PATH=$PATH:$SPARK_HOME/bin:$SPARK_HOME/sbin
+
+export PYTHONPATH=$SPARK_HOME/python/:$PYTHONPATH
+export PYTHONPATH=$SPARK_HOME/python/lib/py4j-0.10.9-src.zip:$PYTHONPATH
+export PYSPARK_PYTHON=python3.7
+
+# copykan kembali ke tempat asalnya
+$ cp /home/imamcs/mysite/.bashrc ~/
+
+# restart .bashrc
+$ source ~/.bashrc
+
+# copykan file .bashr
+~/.local/lib/python3.7/site-packages $ cp ~/.profile /home/imamcs/mysite/
+# isikan di bagian bawahnya dengan
+source ~/.bashrc
+
+export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64
+
+export PATH=$PATH:$JAVA_HOME:$JAVA_HOME/jre/bin
+
+# copykan kembali ke tempat asalnya
+$ cp /home/imamcs/mysite/.profile ~/
+
+# restart .profile
+$ source ~/.profile
+
+PySpark Ready :D
+Big Thanks to PythonAnywhere team.
+
+
+# ----------------------------------------------
+# Intalasi Spark di Colab.
+import os
+os.chdir("/")
+
+# !apt-get install openjdk-8-jdk-headless -qq > /dev/null
+!wget -q https://archive.apache.org/dist/spark/spark-2.4.1/spark-2.4.1-bin-hadoop2.7.tgz
+
+# 178/179 MB
+https://archive.apache.org/dist/spark/spark-2.0.0/spark-2.0.0-bin-hadoop2.7.tgz
+
+
+!tar xf spark-2.4.1-bin-hadoop2.7.tgz
+!pip install -q findspark
+# !pip install -q streamlit
+
+# import os
+os.environ["JAVA_HOME"] = "/usr/lib/jvm/java-8-openjdk-amd64"
+
+# 09:09 ~/mysite $ echo $JAVA_HOME
+# os.environ["JAVA_HOME"] = "/usr/lib/jvm/java-7-openjdk-amd64"
+
+os.environ["SPARK_HOME"] = "/spark-2.4.1-bin-hadoop2.7"
+
+import findspark
+findspark.init()
+from pyspark.sql import SparkSession
+spark = SparkSession.builder.master("local[*]").getOrCreate()
+
+import pyspark
+from pyspark.context import SparkContext
+spark = SparkSession\
+        .builder\
+        .appName("Map Pada Spark")\
+        .getOrCreate()
+
+#sc = SparkContext.getOrCreate()
+sc = spark.sparkContext
+
+os.chdir("/content/drive/My Drive/Cisco Big Data Using Python 2021/FGA Big Data Using Python - Kelas B - utk Peserta2/Sesi 1 - 25 Python/flask-sqlite/flask-sqlite-login")
+!pwd
+
+print('PySpark Siyaap :D')
