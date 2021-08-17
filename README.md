@@ -10,7 +10,7 @@ Asisten Kelas B: Yonas Asmara
 
 Screenshot Hasil Running Big Data App Using Python:
 ![Ngrok x Flask on Google Colab - Login & Register - BigDataApps Rev2.1](https://github.com/imamcs19/FGA-Big-Data-Using-Python-Filkom-x-Mipa-UB-2021/blob/main/Ngrok%20x%20Flask%20on%20Google%20Colab%20-%20Login%20%26%20Register%20-%20BigDataApps%20Rev2.1.png)
---> Ngrok x Flask on Google Colab - Login & Register - BigDataApps Rev2.1
+--> Ngrok x Flask on Google Colab - Login & Register - BigDataApps Rev2.1 --> Alternatif Migrasi ke PythonAnywhere/ lainnya
 
 ![Halaman Upload dan List Files Upload - Flask x SQLite - PythonAnywhere](https://github.com/imamcs19/FGA-Big-Data-Using-Python-Filkom-x-Mipa-UB-2021/blob/main/Halaman%20Upload%20dan%20List%20Files%20Upload%20-%20Flask%20x%20SQLite%20On%20PythonAnywhere.png)
 --> Halaman Upload dan List Files Upload - Flask x SQLite - PythonAnywhere
