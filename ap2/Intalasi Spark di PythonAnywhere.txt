@@ -110,6 +110,9 @@ export PYTHONPATH=$SPARK_HOME/python/:$PYTHONPATH
 export PYTHONPATH=$SPARK_HOME/python/lib/py4j-0.10.9-src.zip:$PYTHONPATH
 export PYSPARK_PYTHON=python3.7
 
+# sesuaikan dengan versi python yg Anda pilih
+alias python=python3.7
+
 # copykan kembali ke tempat asalnya
 $ cp /home/imamcs/mysite/.bashrc ~/
 
