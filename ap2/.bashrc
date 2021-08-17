@@ -33,6 +33,9 @@ export PYTHONPATH=$SPARK_HOME/python/:$PYTHONPATH
 export PYTHONPATH=$SPARK_HOME/python/lib/py4j-0.10.9-src.zip:$PYTHONPATH
 export PYSPARK_PYTHON=python3.7
 
+# sesuaikan dengan versi python yg Anda pilih
+alias python=python3.7
+
 #export SPARK_HOME=/usr/local/Cellar/apache-spark/1.5.1
 #export PYTHONPATH=$SPARK_HOME/libexec/python:$SPARK_HOME/libexec/python/build:$PYTHONPATH
 #PYTHONPATH=$SPARK_HOME/python/lib/py4j-0.8.2.1-src.zip:$PYTHONPATH
