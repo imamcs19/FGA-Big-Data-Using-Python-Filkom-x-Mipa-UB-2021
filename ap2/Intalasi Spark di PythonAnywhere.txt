@@ -134,6 +134,11 @@ $ cp /home/imamcs/mysite/.profile ~/
 # restart .profile
 $ source ~/.profile
 
+# clear space
+$ du -hs /tmp
+$ rm -rf /tmp/*
+$ rm -rf ~/.cache
+
 PySpark Ready :D
 Big Thanks to PythonAnywhere team.
 
