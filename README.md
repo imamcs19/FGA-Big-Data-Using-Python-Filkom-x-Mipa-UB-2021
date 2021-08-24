@@ -24,7 +24,7 @@ Screenshot Hasil Running Big Data App Using Python:
 ![Simple API to Integrated System Between Big Data App and Non Big Data App - PythonAnywhere](https://github.com/imamcs19/FGA-Big-Data-Using-Python-Filkom-x-Mipa-UB-2021/blob/main/Simple%20API%20to%20Integrated%20System%20Between%20Big%20Data%20App%20and%20Non%20Big%20Data%20App.png)
 --> Simple API to Integrated System Between Big Data App and Non Big Data App - PythonAnywhere
 
-![SQLite Studio - Membuat db untuk Support Compute Engine dalam Ekosistem Big Data App Using Python - PythonAnywhere](https://github.com/imamcs19/FGA-Big-Data-Using-Python-Filkom-x-Mipa-UB-2021/blob/main/SQLite%20Studio%20-%20Membuat%20db%20untuk%20Support%20Compute%20Engine%20dalam%20Ekosistem%20Big%20Data%20App%20Using%20Python.png)
---> SQLite Studio - Membuat db untuk Support Compute Engine dalam Ekosistem Big Data App Using Python - PythonAnywhere
+![SQLite Studio - Membuat db untuk Support Compute Engine dalam Ekosistem Big Data App - PythonAnywhere](https://github.com/imamcs19/FGA-Big-Data-Using-Python-Filkom-x-Mipa-UB-2021/blob/main/SQLite%20Studio%20-%20Membuat%20db%20untuk%20Support%20Compute%20Engine%20dalam%20Ekosistem%20Big%20Data%20App%20Using%20Python.png)
+--> SQLite Studio - Membuat db untuk Support Compute Engine dalam Ekosistem Big Data App - PythonAnywhere
 
 Semoga Bermanfaat & Sukses untuk Semuanya. Aamiin. :D
