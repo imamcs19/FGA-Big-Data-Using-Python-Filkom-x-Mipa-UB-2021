@@ -27,4 +27,7 @@ Screenshot Hasil Running Big Data App Using Python:
 ![SQLite Studio - Membuat db untuk Support Compute Engine dalam Ekosistem Big Data App - PythonAnywhere](https://github.com/imamcs19/FGA-Big-Data-Using-Python-Filkom-x-Mipa-UB-2021/blob/main/SQLite%20Studio%20-%20Membuat%20db%20untuk%20Support%20Compute%20Engine%20dalam%20Ekosistem%20Big%20Data%20App%20Using%20Python.png)
 --> SQLite Studio - Membuat db untuk Support Compute Engine dalam Ekosistem Big Data App - PythonAnywhere
 
+![Struktur Files Explorer Web App Flask pada PythonAnywhere untuk Prototype Ekosistem Big Data App Using Python](https://github.com/imamcs19/FGA-Big-Data-Using-Python-Filkom-x-Mipa-UB-2021/blob/main/Struktur%20Files%20Explorer%20Web%20App%20Flask%20pada%20PythonAnywhere%20untuk%20Prototype%20Ekosistem%20Big%20Data%20App%20Using%20Python.png)
+--> Struktur Files Explorer Web App Flask pada PythonAnywhere untuk Prototype Ekosistem Big Data App Using Python
+
 Semoga Bermanfaat & Sukses untuk Semuanya. Aamiin. :D
